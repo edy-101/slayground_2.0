@@ -1,0 +1,11 @@
+from typing import *
+import math
+def areaSwitchCase(ch: int, a: List[float]):
+    if ch == 1:
+        r = a[0]
+        area = math.pi * r * r
+        return f"{area:.5f}"
+    elif ch == 2:
+        l, b = a
+        area = l * b
+        return f"{area:.5f}"
