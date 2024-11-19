@@ -1,0 +1,14 @@
+from math import *
+from collections import *
+from sys import *
+from os import *
+
+## Read input as specified in the question.
+## Print output as specified in the question.
+
+n = int(input())
+fib = [1, 1]
+for i in range(2, n):
+    ele = fib[i-1] + fib[i-2]
+    fib.append(ele)
+print(fib[n - 1])
