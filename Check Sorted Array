@@ -1,0 +1,2 @@
+def isSorted(n: int,  a: [int]) -> int:
+    return 1 if a == sorted(a) else 0
