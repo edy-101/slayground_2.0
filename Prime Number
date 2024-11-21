@@ -1,0 +1,3 @@
+from sympy import isprime
+def isPrime(n:int) -> bool:
+    return isprime(n)
