@@ -1,6 +1,3 @@
 from typing import List
 def reverseNumber(n: int) -> int: 
-    stri = str(n)
-    s = stri[::-1]
-    rev = int(s)
-    return rev
+   return int(str(n)[::-1])
